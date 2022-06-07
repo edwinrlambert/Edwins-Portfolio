@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quotes",
+      "description": "A web application that shows a list of random quotes from the web.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "image_urls": [
+        "/static/img/randomquotes_01.png",
+        "/static/img/randomquotes_02.png",
+        "/static/img/randomquotes_03.png",
+        "/static/img/randomquotes_04.png"
+      ],
+      "live_demo": "https://edwinrlambert.github.io/RandomQuotesSlideShow/",
+      "github_repo": "https://github.com/edwinrlambert/RandomQuotesSlideShow"
+    },
+    {
+      "id": 1,
+      "project_name": "Pagination",
+      "description": "A web application that displays a paginated view for a list of contacts.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "image_urls": [
+        "/static/img/pagination_01.png",
+        "/static/img/pagination_02.png",
+        "/static/img/pagination_03.png",
+        "/static/img/pagination_04.png"
+      ],
+      "live_demo": "https://edwinrlambert.github.io/Pagination/",
+      "github_repo": "https://github.com/edwinrlambert/Pagination"
+    },
+    {
+      "id": 2,
+      "project_name": "BMI Calculator",
+      "description": "A web application to calculate the bmi by entering age, height and weight.",
+      "technologies": ["Pug", "CSS", "JavaScript"],
+      "image_urls": [
+        "/static/img/bmi_01.png",
+        "/static/img/bmi_02.png",
+        "/static/img/bmi_03.png",
+        "/static/img/bmi_04.png"
+      ],
+      "live_demo": "",
+      "github_repo": "https://github.com/edwinrlambert/BMIForm"
+    }
+  ]
+}

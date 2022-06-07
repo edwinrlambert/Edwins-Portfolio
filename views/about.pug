@@ -1,0 +1,46 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Name
+        h1 Edwin Ronald Lambert
+
+        //- Title
+        p.lead.text-light
+          | Data Analyst
+
+        //- Elevator Pitch
+        .portfolio-bio
+          p
+            | Did you know that people who cross our lives are there for a specific purpose. Let's coin that to a fancy term - Destiny. I'm sure you must have heard about this, right?
+            | Was it destiny that you got to read this? Who knows! 😉 Maybe, you're here so that I can help you with your business needs.
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        //- Skills
+        ul
+          li Express
+          li HTML
+          li CSS
+          li JavaScript
+          li Python 
+          li VS Code
+        h6 Contact Info
+
+        //- Contact
+        ul
+          li 604-723-6795
+          li edwinrlambert@gmail.com
+
+        //- Social
+        a.button.expanded(href='https://www.linkedin.com/in/edwinrlambert/', target="_blank") LinkedIn
+        a.button.expanded(href='https://github.com/edwinrlambert', target="_blank") GitHub
+        a.button.expanded(href='https://twitter.com/edwinrlambert', target="_blank") Twitter
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  

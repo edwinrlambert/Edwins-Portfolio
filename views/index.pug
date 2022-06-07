@@ -1,0 +1,23 @@
+extends layout.pug
+
+block content 
+  article.grid-container.portfolio-intro
+    div
+
+      //- Title
+      h1 Portfolio
+
+      //- Description
+      p.lead.text-light
+        | These are list of projects that I have worked on. The tools and technologies that I've used are listed here as well.
+  article.grid-container.portfolio-index
+    
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+
+      //- Projects
+      each project in projects
+        div.cell
+          a(href=`/project/${project.id}`)
+            img.thumbnail(src=project.image_urls[0], height='520', width='520')
+            h5 #{project.project_name}
+
